@@ -32,7 +32,7 @@ function App() {
 
           <FacebookShareButton 
               // url={`${basicURL}/main/campaign/detail/${slug}`}
-              url="http://172.0.0.1:8080/"
+              url="https://reactjsserver.herokuapp.com/"
               quote="Home WEB"
               hashtag="#GerakanAmal"
               // imageUrl="./assets/img/avatar.jpg"
@@ -44,7 +44,7 @@ function App() {
           <WhatsappShareButton 
               title="Testing Share Wa"
               separator=":: "
-              url="http://172.0.0.1:8080/"
+              url="https://reactjsserver.herokuapp.com/"
           >
               <WhatsappIcon iconFillColor="white" size={"2rem"} round={true} className="ml-1"></WhatsappIcon>
           </WhatsappShareButton>
