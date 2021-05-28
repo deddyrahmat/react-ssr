@@ -8,12 +8,48 @@ function App() {
   return (
     <>
       <Helmet>
-          <title>Testing Development SSR</title>
-          <meta
-              name="description"
-              content="Pencarian Campaign di Gerakan Amal yang ingin dibantu"
-              />
-          <meta name="keywords" content="Search Campaign, Amanah Zakat, Tabungan Qurban, Wakaf ECO Produktif, Clean Water For Life, Siaga Kemanusiaan, Wakaf Pendidikan, Wakaf Al-Qur'an, Peduli Kesehatan " />
+        {/* <!-- HTML Meta Tags --> */}
+        <title>Developer</title>
+        <meta
+          name="description"
+          content="Articles, tips, and insights aimed at making you a world-class developer, designer, and beyond."
+        />
+
+        {/* <!-- Google / Search Engine Tags --> */}
+        <meta itemprop="name" content="Reed" />
+        <meta
+          itemprop="description"
+          content="Articles, tips, and insights aimed at making you a world-class developer, designer, and beyond."
+        />
+        <meta
+          itemprop="image"
+          content="http://reedbarger.com/static/ca-styled-logo-5205dbb0983e1531d228c98584ab5711.png"
+        />
+
+        {/* <!-- Facebook Meta Tags --> */}
+        <meta property="og:url" content="https://reactjsserver.herokuapp.com/" />
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content="Reed" />
+        <meta
+          property="og:description"
+          content="Articles, tips, and insights aimed at making you a world-class developer, designer, and beyond."
+        />
+        <meta
+          property="og:image"
+          content="./assets/img/avatar.jpg"
+        />
+
+        {/* <!-- Twitter Meta Tags --> */}
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Reed" />
+        <meta
+          name="twitter:description"
+          content="Articles, tips, and insights aimed at making you a world-class developer, designer, and beyond."
+        />
+        <meta
+          name="twitter:image"
+          content="./assets/img/avatar.jpg"
+        />
       </Helmet>
       <div className="App">
         <header className="App-header">
